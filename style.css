@@ -5,15 +5,15 @@
 body{
     margin: 0;
 }
-.center{
-    height:700px;
+.container{
+    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: hsl(212, 45%, 89%);
 }
-.container{
+.center{
     display:flex;
     position: relative;
     flex-direction: column;
@@ -24,7 +24,7 @@ body{
     border-radius: 20px;
     background-color: white;
 }
-.container > h3 {
+.center > h3 {
     font-family: Outfit;
     font-size: 24px;
     font-weight: 700;
@@ -34,7 +34,7 @@ body{
     color: hsl(218, 44%, 22%);
     line-height: 35px;
 }
-.container > p {
+.center > p {
     font-family: Outfit;
     font-size: 15px;
     font-weight: 400;
@@ -56,3 +56,4 @@ body{
 .attribution > a {
     color: hsl(228, 45%, 44%);
 }
+
